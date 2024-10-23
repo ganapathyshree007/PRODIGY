@@ -4,7 +4,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
 # Step 1: Load the dataset
-file_path = r'D:/ML data sets/train.csv'  # Adjust this path if needed
+file_path = r'G:/ML data sets/train.csv'  # Adjust this path if needed
 data = pd.read_csv(file_path)
 
 # Step 2: Explore the data (Optional)
